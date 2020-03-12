@@ -1,0 +1,7 @@
+
+
+Transição tipo do lobo de rizzo, com fileiras horizontais de texto se movendo, sendo eles:
+* Trabalhista.
+* Empresarial.
+* de Família.
+* Criminal.
