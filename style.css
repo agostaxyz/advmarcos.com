@@ -1,53 +1,7 @@
-body, ul, h1, p, a, li, footer, img, h2, h3, h4, h5, h6, a:hover {
-    text-decoration:none;
-    margin: 0;
-    padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-    vertical-align: baseline;
-    color: #ffffff;
-    font-family: 'Inconsolata', 'Times New Roman';
-    font-weight: bold;
+header img {
+    margin: 10px;
 }
 
-body {
-    background-color: #111;
-    overflow-x: hidden;
-}
-
-h1, h2, h3, p, a, a:hover{
-    font-family: 'Roboto', sans-serif;
-    color: #fff;
-    font-size: 1.2em;
-}
-
-header {
-    background-color: darkslategray;
-    height: 13vh;
-    width: 100vw;
-}
-
-h2{
-    display: inline-block;
-    font-family: 'Roboto', sans-serif;
-    font-size: 3em;
-    font-weight: 900;
-}
-
-h2 div {
-    display: inline-block;
-}
-
-.logo {
-    height: 70px;
-    width: 70px;
-}
-
-nav {
-    display: inline-block;
-}
-
-img {
-    width: 100vw;
+main img {
+    height: 10em;
 }
