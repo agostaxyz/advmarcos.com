@@ -5,6 +5,15 @@ function expFunc() {
     document.getElementById("experiencia").innerHTML = "Mais de " + x + " anos de experiência.";
 } 
 
+function antiSpam() { //Preventing web scraping
+    if (arguments == "phone") {
+        tel = '+551199852' + '-3338';
+        document.getElementById(arguments).innerHTML = tel;
+        document.getElementById(arguments).setAttribute('href', tel);
+    }
+
+}
+
 
 /*
 Returns a list of reviews.
