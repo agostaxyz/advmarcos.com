@@ -1,16 +1,28 @@
+head, html, body {
+    scrollbar-color: #284589 #000;
+  }
+
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
-
-header img {
-    margin: 10px;
+body {
+    overflow-x: hidden;
 }
+
 
 main img {
     height: 10em;
 }
 
+.font-adjust, .font-adjust * {
+    font-size: 1.4rem !important;
+}
+
 .bg-dark {
     background-color: #111 !important;
+}
+
+.bg-primary {
+    background-color: #284589 !important;
 }
 
 .bg-white {
@@ -18,7 +30,7 @@ main img {
 }
 
 .no-underline, .no-underline:hover, .decoration, .decoration:hover {
-text-decoration: none;
+text-decoration: none !important;
 }
 
 .cursive{
@@ -38,19 +50,61 @@ text-decoration: none;
     border-width: 13px;
 }
 
+.cover-text {
+    text-shadow: 0px 0px 10px #000;
+}
+
+.background {
+    /* height: 99vh;
+    max-height: 99vh;; */
+    background-image: url(src/bg.jpg);
+    background-position: center center !important;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    max-height: 99vh !important;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .background {
+        background-image: url(src/bg-small.png);
+    }
+    .rip {
+        display: none !important;
+    }
+    .double-border {
+        border: none;
+    }
+    .gmaps {
+        height: 60vh !important;
+    }
+    header {
+    margin: 0px !important;
+    padding: 0px !important;
+
+    }
+    header {
+        --bs-gutter-x: 0rem !important;
+        margin: 0px !important;
+        padding: 0px;
+    }
+}
+
+.contact-items *{
+height: 5em;
+}
+
 #spin {
-    background-color: #18a1f5;
-    padding: 5px;
-    border: 5px solid #fff;
+    border-bottom: 5px solid #18a1f5;
 }
 
   #spin:after {
-    content:"";
-    animation: spin 9s linear infinite;
+    content:"Trabalhista";
+    animation: spin 10s linear infinite;
   }
   @keyframes spin {
     0% { content:"Trabalhista"; }
-    25% { content:"Cível"; }
-    50% { content:"Inventário"; }
+    25% { content:"Cívil"; }
+    50% { content:"de Inventário"; }
     75% { content:"Criminal"; }
   }
