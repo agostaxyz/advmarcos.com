@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
 head, html, body {
     scrollbar-color: #284589 #000;
   }
-
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
 body {
     overflow-x: hidden;
@@ -125,11 +125,10 @@ height: 5em;
 
   #spin:after {
     content:"Trabalhista";
-    animation: spin 10s linear infinite;
+    animation: spin 8s linear infinite;
   }
   @keyframes spin {
     0% { content:"Trabalhista"; }
-    25% { content:"Cívil"; }
-    50% { content:"de Inventário"; }
-    75% { content:"Criminal"; }
+    33% { content:"Cívil"; }
+    66% { content:"Criminal"; }
   }
