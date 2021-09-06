@@ -9,6 +9,10 @@ head, html, body {
     min-height: 100vh;
   }
 
+  .bg-secondary {
+      background-color: #111 !important;
+  }
+
 .bg {
     background-image: url(src/pattern.png);
     background-size: 25em;
@@ -20,12 +24,20 @@ body {
 }
 
 .container {
-    max-width: 768px;
-
+    padding: 0px !important;
+    max-width: 608px;
 }
 
 @media only screen and (max-width: 768px) {
-
+    .mobile-full {
+        display: inline !important;
+    }
+    .bg-link-mobile {
+        display: block !important;
+    }
+    .bg-link {
+        display: none !important;
+    }
 }
 
 
